@@ -1,8 +1,8 @@
-## Mthematical Functions, Scientific Calculator
+## Mathematical Functions, Scientific Calculator
 
 ![npm](https://img.shields.io/npm/v/mathematical-functions) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/) [![dependencies Status](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](https://david-dm.org/request/request)
 
-To calculate problems of science, engineering, and mathematical functions.
+To calculate problems of science, engineering and mathematical functions.
 
 ## Installation
 
@@ -13,7 +13,7 @@ $ npm install mathematical-functions
 ## Usage
 
 ```javascript
-var { sin, cos, cbrt, sqrt, fround, ... } = require("mathematical-functions");
+var { sin, cos, cbrt, sqrt, ... } = require("mathematical-functions");
 ```
 
 ## Examples
