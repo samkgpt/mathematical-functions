@@ -19,6 +19,8 @@ var { sin, cos, cbrt, sqrt, fround, ... } = require("mathematical-functions");
 ## Examples
 
 ```javascript
+console.log(cos(value) + sin(value) + 10 + tan(value));
+
 console.log(cos(value)); // returns the cosine of a number
 
 console.log(acos(value)); // returns the arccosine (in radians) of a number
