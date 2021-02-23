@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/mathematical-functions) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/) [![dependencies Status](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](https://david-dm.org/request/request)
 
-To calculate problems in science, engineering, and mathematical functions.
+To calculate problems of science, engineering, and mathematical functions.
 
 ## Installation
 
@@ -13,7 +13,7 @@ $ npm install mathematical-functions
 ## Usage
 
 ```javascript
-var { sin, cos, sqrt, fround, ... } = require("mathematical-functions");
+var { sin, cos, cbrt, sqrt, fround, ... } = require("mathematical-functions");
 ```
 
 ## Examples
@@ -50,7 +50,7 @@ console.log(log(value)); // returns the natural logarithm of a double value
 console.log(log10(100000)); // returns expected output: 5
 
 console.log(log1p(value)); // returns natural logarithm (base e)
-//of 1 + a number
+// of 1 + a number
 
 console.log(log2(value)); // returns the base 2 logarithm of a number
 
@@ -86,13 +86,13 @@ console.log(hypot(value)); // returns square root of sum of squares
 // of its arguments
 
 console.log(imul(x, y)); // returns the result of the C-like 32-bit
-//multiplication of the two parameters
+// multiplication of the two parameters
 
 console.log(power(value)); // returns the nearest 32-bit single
-//precision float representation of a Number
+// precision float representation of a Number
 
 console.log(round(value)); // returns the value of a number rounded
-//to the nearest integer
+// to the nearest integer
 
 console.log(sign(value)); // returns either a positive or negative +/- 1
 

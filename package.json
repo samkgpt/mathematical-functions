@@ -1,7 +1,7 @@
 {
   "name": "mathematical-functions",
   "version": "1.0.0",
-  "description": "To calculate problems in science, engineering, and mathematical functions.",
+  "description": "To calculate problems of science, engineering, and mathematical functions.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
